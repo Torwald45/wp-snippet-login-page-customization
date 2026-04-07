@@ -1,10 +1,10 @@
 # WP Snippet: Login Page Customization
 
-Customizes the WordPress login page with custom logo, URL, and title. Changes default logo link from wordpress.org to your site homepage.
+Customizes the WP login page with custom logo, URL, and title. Changes default logo link from wordpress.org to your site homepage.
 
 ## Features
 
-- Custom logo from WordPress Media Library
+- Custom logo from WP Media Library
 - Changes logo URL from wordpress.org to your site homepage
 - Custom logo title/tooltip
 - Easy to customize (just change attachment ID and site name)
@@ -13,7 +13,7 @@ Customizes the WordPress login page with custom logo, URL, and title. Changes de
 
 ## Requirements
 
-- WordPress 5.0 or higher
+- WP 5.0 or higher
 - PHP 7.4 or higher
 
 ## Installation
@@ -47,7 +47,7 @@ background-image: url("<?php echo wp_get_attachment_url(YOUR_LOGO_ID); ?>");
 Replace `YOUR_LOGO_ID` with your logo's attachment ID:
 
 **How to find attachment ID:**
-1. Go to WordPress admin → Media → Library
+1. Go to WP admin → Media → Library
 2. Click on your logo image
 3. Look at the URL in browser address bar
 4. Find `post=123` - the number is your attachment ID
@@ -68,9 +68,9 @@ Example: `return "My Awesome Site";`
 
 ## What This Snippet Changes
 
-- **Logo image:** Replaces default WordPress logo with your custom logo
+- **Logo image:** Replaces default WP logo with your custom logo
 - **Logo URL:** Changes link from wordpress.org to your site homepage
-- **Logo tooltip:** Changes hover text from "Powered by WordPress" to your custom text
+- **Logo tooltip:** Changes hover text from "Powered by WP" to your custom text
 
 ## Changelog
 

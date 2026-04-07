@@ -1,8 +1,8 @@
 <?php
 /**
- * WordPress Login Page Customization
+ * WP Login Page Customization
  * 
- * Customizes the WordPress login page with custom logo, URL, and title.
+ * Customizes the WP login page with custom logo, URL, and title.
  * Changes default logo link from wordpress.org to site homepage.
  * 
  * @author      Torwald45
